@@ -4059,64 +4059,55 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
     display: block;
 }
 
-/*-------------------------------------
-    20. Preloader CSS
----------------------------------------*/
-section.loader_first {
-    background-color: #2f2689;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 99;
+
+/* PreLoad
+-------------------------------------------------------------- */
+.preload {
+  overflow: hidden;
 }
 
-.loader_first .circular-spinner {
+.preload-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #2f2689;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999999999;
+  display: block;
+  overflow: hidden;
+}
+
+.preload-logo {
   position: absolute;
-  top: 10%;
-  left: 10%;
-  width: 500px;
-  height: 500px;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
   z-index: 100;
   margin: -30px 0 0 -30px;
-  background: #2f2689;
+  background: #ffffff;
   border-radius: 50%;
   background-image: url("./../../assets/images/icons/logo.png");
   background-repeat: no-repeat;
   background-position: center center;
-  animation: preload 3s linear infinite alternate;
+  animation: preload 1s linear infinite alternate;
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
 }
 
-/*------------------------------------
-    modal-backdrop
-------------------------------------*/
-.modal-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1050;
-    width: 100vw;
-    height: 100vh;
-    filter: blur(1px);
-    backdrop-filter: blur(1px);
-    background: rgba(0, 0, 12, 0.8)
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
-.modal-backdrop.in {
-    opacity: 1 !important;
-}
-
-.modal-dialog-centered {}
-
-@keyframes pre_rotate {
-    from {
-        transform: rotate(0);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+.tf-section {  
+    position: relative;
+    padding: 80px 0;
+    margin-bottom: 0 !important;
 }
 
 /*--------------------

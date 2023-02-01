@@ -43,11 +43,12 @@
         
     </head>
     <body>
-        <!--Preloader area start here-->
-        <section class="loader_first">
-            <div class="circular-spinner"></div>
-        </section>
-        <!--Preloader area End here-->
+
+        <!-- preloade -->
+        <div class="preload preload-container">
+            <div class="preload-logo"></div>
+        </div>
+        <!-- /preload -->
         <div class="HomeV4Bg">
             
         </div>
@@ -526,7 +527,8 @@
                                 <li><a href="https://twitter.com/Mau_Token"><img src="assets/images/icons/twitter.png" alt="" class="img-fluid"/></i></a></li>
                                 <li><a href=" https://t.me/MAUtoken"><img src="assets/images/icons/telegram.png" alt="" class="img-fluid"/></a></li>
                                 <li><a href=" mailto:MAUtoken@protonmail.com"><img src="assets/images/icons/mail.png" alt="" class="img-fluid"/></a></li>
-                                <li><a href="discord_link"><img src="assets/images/icons/discord.png" alt="" class="img-fluid"/></a></li>
+                                <li><a href="discord_link">
+                                </a></li>
                                 <li><a href="https://www.reddit.com/r/MAU_Token/"><img src="assets/images/icons/reddit.png" alt="" class="img-fluid"/></a></li>
                             </ul>
                         </div>
@@ -612,6 +614,13 @@
         
 
         <!--Staking Start-->
+        <script type="text/javascript">
+        setTimeout(function () {
+        $(".preload").fadeOut("slow", function () {
+            $(this).remove();
+        });
+        }, 800);
+        </script>
         <script>
 
 $(document).ready(function() {

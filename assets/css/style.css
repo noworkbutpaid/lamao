@@ -2,40 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap");
 @charset "utf-8";
 
-/** 
-* 
-* -----------------------------------------------------------------------------
-*
-* Template : GamFi - Metaverse Web3 IGO/IDO Token Launchpad HTML 5 Template
-* Author : uigigs
-* Author URI : http://www.uigigs.com/
-*
-* -----------------------------------------------------------------------------
-* 
-**/
-/* TABLE OF CONTENT
----------------------------------------------------------
-01. Gamfi General CSS
-02. Gamfi Header Section CSS
-03. Gamfi Banner Section CSS
-04. Gamfi Breadcrumbs Section CSS
-05. Gamfi About Section CSS
-06. Gamfi Project Section CSS
-07. Gamfi Project Details Section CSS
-08. Gamfi previous Section CSS
-09. Gamfi farming Section CSS
-10. Gamfi Calendar Section CSS
-11. Gamfi Leaderboard Section CSS
-12. Gamfi Igo-Rankging Section CSS
-13. Gamfi Tokenomics Section CSS
-14. Gamfi Team Section CSS
-15. Gamfi Partner Section CSS
-16. Gamfi Form Content Section CSS
-17. Gamfi Explore Content Section CSS
-18. Gamfi footer Section CSS
-19. Modal Section CSS
-20. Preloader CSS
---------------------------------------------------------*/
 @font-face {
     font-family: 'Russo One';
     font-style: normal;

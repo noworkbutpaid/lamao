@@ -12374,9 +12374,27 @@ Staking_4
 }
 
 
+@media (min-width: 992px) {
+    .justify-fix {
+        width: 356px;
+/*        border: solid green;*/
+    }
+}
 
+@media (max-width: 991px) and (min-width: 767px) {
+    .justify-fix {
+        width: 288px;
+/*        border: solid red;*/
+    }
 
+    .justify-fix .subheader_ {
+        font-size: 20px !important;
+    }
+}
 
+/*@media (max-width: 767px) {
+
+}*/
 
 
 

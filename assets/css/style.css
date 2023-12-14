@@ -3862,7 +3862,11 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
     transition: 0.4s;
     font-size: 20px;
 }
-
+.contract-address {
+    font-size: 14px; /* Adjust the font size as needed */
+    word-wrap: break-word;
+    white-space: normal;
+}
 .gamfi-footer-section .footer-mainmenu ul {
     margin: 0;
     padding: 0;

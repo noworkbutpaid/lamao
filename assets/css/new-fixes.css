@@ -1,0 +1,168 @@
+.nav-logo {
+  max-width: 240px;
+  width: 100%;
+}
+
+.section-2 {
+  text-align: -webkit-center;
+}
+.section-2 img {
+  width: 200px;
+}
+.sec-heading {
+  width: 100%;
+}
+.hero img {
+  width: 500px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+p {
+  font-size: 1.2rem !important;
+}
+.fit {
+  width: fit-content;
+}
+
+@media (min-width: 1601px) {
+  .responsive-container {
+    /* height: 80%; */
+  }
+
+  .button-container .responsive-image {
+    width: 14vw !important;
+  }
+
+  .hero img {
+    /* position: absolute; */
+    /* top: 170px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    width: 300px;
+  }
+
+  .trio-wrapper {
+    text-align: unset;
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  #About {
+    height: 90vh;
+    min-height: 750px;
+  }
+
+  .hero img {
+    width: 240px;
+    padding-top: 30px;
+  }
+
+  .responsive-container {
+    justify-content: flex-start;
+  }
+
+  .video-wrapper {
+    max-width: unset;
+    width: fit-content;
+    max-height: unset;
+    height: 400px;
+  }
+
+  .button-container .responsive-image {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 650px) {
+  .swiper-slide {
+    max-width: unset !important;
+    width: unset !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-content,
+  .sc_banner_V3_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align-last: center;
+  }
+
+  .gamfi_V2_hero_Btns {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .V3_BanerContent > .row {
+    flex-direction: column;
+  }
+  .hero {
+    text-align: -webkit-center;
+  }
+  .hero > img {
+    width: 200px;
+  }
+
+  .sec-heading.row {
+    flex-direction: column;
+    margin-left: unset;
+  }
+  .video-wrapper,
+  .videogif-wrapper {
+    max-width: 90%;
+  }
+
+  .sc_banner_V3_left {
+    width: 85%;
+  }
+  /* .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .responsive-container {
+    padding: 0;
+  }
+
+  .heading-left-image,
+  .heading-right-image {
+    width: unset !important;
+  }
+
+  .footer-logo img {
+    width: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  .sc_banner_V3_left  p {
+    text-align-last: start;
+  }
+}
+
+@media (max-width: 375px) {
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  .gamfi_V2_hero_Btns {
+    gap: 10px;
+  }
+  .gamfi_V2_hero_Btns a {
+    margin: 0 !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+  }
+  h3 {
+    font-size: 1.3rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+}

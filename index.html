@@ -1,768 +1,937 @@
 <!DOCTYPE html>
 <html lang="zxx">
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<head>
-        <!-- meta tag -->
-        <meta charset="utf-8" />
-        <title>MAU -The First Defi Feline built on Aptos</title>
-        <meta name="description" content="Aptos launched in an incredibly challenging market making it difficult to gain exposure, sometimes you need a feline to fuel the fire." />
-        <!-- responsive tag -->
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- favicon -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.html" />
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
-        <!-- Bootstrap v4.4.1 css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/new.css" />
-        <!-- animate css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
-        <!-- magnific css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
-        <!-- owl.carousel css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" />
-        <!-- off canvas css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css" />
-        <!-- flaticon css  -->
-        <link rel="stylesheet" type="text/css" href="assets/css/ico-moon-fonts.css" />
-        <!--Slick Slider CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />v  
-        <link rel="stylesheet" href="assets/css/slick-theme.min.css" />
-        <!-- spacing css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/sc-spacing.css" />
-        
-        <!-- style css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/slider-style.css" />
-        <!-- responsive css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-
-        <link rel="stylesheet" type="text/css" href="assets/fonts/stylesheet.css">
-        
-    </head>
-    <body>
-
-        <!-- preloade -->
-        <div class="preload preload-container">
-            <div class="preload-logo"></div>
-        </div>
-        <!-- /preload -->
-        <div class="HomeV4Bg">
-            
-        </div>
-        <div class="homeV4Bodycontent">
-        <canvas id="canvas" class="home4FireFlyBG"></canvas>
-        
-        <div class="home_v4_body_items">
-            <!--Header Start-->
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
+    <!-- update -->
+    <meta charset="utf-8" />
+    <title>MAU -The First Defi Feline built on Aptos</title>
+    <meta name="description" content="Aptos launched in an incredibly challenging market making it difficult to gain exposure, sometimes you need a feline to fuel the fire." />
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.html" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
+    <!-- Bootstrap v4.4.1 css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/new.css" />
+    <!-- animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+    <!-- magnific css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" />
+    <!-- off canvas css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css" />
+    <!-- flaticon css  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/ico-moon-fonts.css" />
+    <!--Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />v
+    <link rel="stylesheet" href="assets/css/slick-theme.min.css" />
+    <!-- spacing css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/sc-spacing.css" />
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/new-fixes.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slider-style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="assets/fonts/stylesheet.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- preloade -->
+    <div class="preload preload-container">
+      <div class="preload-logo"></div>
+    </div>
+    <!-- /preload -->
+    <div class="HomeV4Bg">
+      <canvas id="canvas" class="home4FireFlyBG"></canvas>
+    </div>
+    <div class="homeV4Bodycontent">
+      <div class="home_v4_body_items">
+        <!--Header Start-->
         <header id="gamfi-header" class="gamfi-header-section transparent-header">
-            <div class="menu-area menu-sticky">
-                <div class="container">
-                    <div class="heaader-inner-area d-flex justify-content-between align-items-center">
-                        <div class="gamfi-logo-area d-flex justify-content-between align-items-center">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
-                            </div>
-                            <div class="header-menu">
-                                <ul class="nav-menu">
-                                <li><a href="index.html">Home</a>
-                                </li>
-                               <!--  <li><a href="#About">About Us</a>
-                                </li> -->
-                                <li><a href="#Mission">Mission</a>
-                                </li>
-                                <li ><a href="#Tokenomics">Tokenomics</a>
-                                </li>
-                                <li>
-                                    <a href="#Roadmap">Roadmap</a>
-                                </li>
-                                <li>
-                                    <a href="#Crosschain">Crosschain</a>
-                                </li>
-                                <li>
-                                    <a href="#">Chart</a>
-                                </li>
-                            </ul>
-                            </div>
-                        </div>
-                        <div class="gamfi-btn-area">
-                            <ul>
-                                <li>
-                                    <a id="nav-expander" class="nav-expander bar" href="#">
-                                        <div class="bar glav">
-                                            <span class="dot1"></span>
-                                            <span class="dot2"></span>
-                                            <span class="dot3"></span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="buy-token">
-                                    <a class="readon black-shape" href="https://discord.gg/jNSaAPANSt" target="_blank">
-                                        <span class="btn-text">Discord</span>
-                                        <span class="hover-shape1"></span>
-                                        <span class="hover-shape2"></span>
-                                        <span class="hover-shape3"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="litepaper.pdf" target="_blank" class="readon white-btn hover-shape">
-                                        <span class="btn-text">Litepaper</span>
-                                        <span class="hover-shape1"></span>
-                                        <span class="hover-shape2"></span>
-                                        <span class="hover-shape3"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+          <div class="menu-area menu-sticky">
+            <div class="container">
+              <div class="heaader-inner-area d-flex justify-content-between align-items-center">
+                <div class="gamfi-logo-area d-flex justify-content-between align-items-center">
+                  <div class="logo">
+                    <a href="index.html">
+                      <img src="assets/images/logoweb.png" alt="logo" class="nav-logo" />
+                    </a>
+                  </div>
+                  <div class="header-menu">
+                    <ul class="nav-menu">
+                      <li>
+                        <a href="index.html">Home</a>
+                      </li>
+                      <!--  <li><a href="#About">About Us</a></li> -->
+                      <li>
+                        <a href="#Mission">Mission</a>
+                      </li>
+                      <li>
+                        <a href="#Game">Game</a>
+                      </li>
+                      <li>
+                        <a href="#Roadmap">Roadmap</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+                <div class="gamfi-btn-area">
+                  <ul>
+                    <li>
+                      <a id="nav-expander" class="nav-expander bar" href="#">
+                        <div class="bar glav">
+                          <span class="dot1"></span>
+                          <span class="dot2"></span>
+                          <span class="dot3"></span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <!-- Canvas Mobile Menu start -->
             <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
-                <div class="close-btn">
-                    <a id="nav-close2" class="nav-close">
-                        <div class="line">
-                            <span class="line1"></span>
-                            <span class="line2"></span>
-                        </div>
-                    </a>
-                </div>
-                <div class="sidebar-logo mb-30">
-                    <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
-                </div>
-                <ul class="nav-menu">
-                <li><a href="index.html">Home</a>
+              <div class="close-btn">
+                <a id="nav-close2" class="nav-close">
+                  <div class="line">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                  </div>
+                </a>
+              </div>
+              <div class="sidebar-logo mb-30">
+                <a href="index.html">
+                  <img src="assets/images/logoweb.png" alt="">
+                </a>
+              </div>
+              <ul class="nav-menu">
+                <li>
+                  <a href="index.html">Home</a>
                 </li>
-             <!--    <li><a href="#About">About Us</a>
-                </li> -->
-                <li><a href="#Mission">Mission</a>
-                </li>
-                <li ><a href="#Tokenomics">Tokenomics</a>
+                <!--    <li><a href="#About">About Us</a></li> -->
+                <li>
+                  <a href="#Mission">Mission</a>
                 </li>
                 <li>
-                    <a href="#FAQ">FAQ</a>
+                  <a href="#Game">Game</a>
                 </li>
                 <li>
-                    <a href="#Crosschain">Crosschain</a>
+                  <a href="#Roadmap">Roadmap</a>
                 </li>
-                <li>
-                    <a href="#Roadmap">Roadmap</a>
-                </li>
-                <li>
-                    <a href="litepaper.pdf">Litepaper</a>
-                </li>
-                <li>
-                    <a href="https://www.dextools.io/app/en/aptos/pair-explorer/0x2ad8f7e64c7bffcfe94d7dea84c79380942c30e13f1b12c7a89e98df91d0599b%3C0x1::aptos_coin::AptosCoin-0xf8fa55ff4265fa9586f74d00da4858b8a0d2320bbe94cb0e91bf3a40773eb60::MAU::MAU%3E">Chart</a>
-                </li>
-                <li>
-                    <a href="UnderstandingAptosbyMAU.pdf">Understanding Aptos</a>
-                </li>
-            </ul>
+              </ul>
             </nav>
             <!-- Canvas Menu end -->
         </header>
         <!--Header End-->
-
-            <!-- Banner Section Start -->
-            <div id="About" class="sc_banner_V3 sc_banner_V4 banner-bg position-relative">
-                <div class="container">
-                    <div class="banner-content V3_BanerContent">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="sc_banner_V3_left mt-10">
-                                    <h2 class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">The Feline Fuelling Aptos</h2>
-                                    <p class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s">Mau is the first Defi Feline built on Aptos to encourage adoption and empower the existing community.</p>
-                                    <div class="gamfi_V2_hero_Btns wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-                                        <a href="#" target="_blank" class="readon white-btn hover-shape VIEW_Projects_Btn">
-                                            <span class="btn-text">Buy Now</span>
-                                            <span class="hover-shape1"></span>
-                                            <span class="hover-shape2"></span>
-                                            <span class="hover-shape3"></span>
-                                        </a>
-                                        <a class="readon black-shape Apply_Project_Btn" href="https://t.me/MAUtoken">
-                                            <span class="btn-text">Join Telegram</span>
-                                            <span class="hover-shape1"></span>
-                                            <span class="hover-shape2"></span>
-                                            <span class="hover-shape3"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="sc_banner_V3_right sc_banner_V4_right mt-70">
-                                    <div class="wow fadeInUp">
-                                        <img src="assets/images/icons/banner-4.png" alt="img" class="img-fluid" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Banner Section End -->
-
-
-
-<!-- Project Section Start -->
-
-        <div class="gamfi-project-section ProjectPools_Sect main-project-area pb-0" id="Mission">
-            <div class="container">
-                <div class="sec-inner align-items-center d-flex justify-content-between mb-30">
-                    <div class="sec-heading">
-                        <div class="sub-inner mb-15" style="text-align: center; font-size: 20px;">
-                            <img class="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
-                            <span class="sub-title-mission">MISSION MAU</span>
-                            <img class="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
-                        </div>
-
-                        <p class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s" style="font-size: 25px; text-align: center; color: white; font-family:Russo One;">
-                            Aptos launched in an incredibly challenging market which has made it difficult to gain mainstream exposure,  Mau is here to add fuel to the fire.
-                        </p>
-                    </div>
-                </div>
-                  <!-- Start slider -->
-
-                <section>
-                    <div class="rt-container">
-                          <div class="col-rt-12">
-                              <div class="Scriptcontent">
-                                  
-                                  <!-- Start slider -->
-                <section class="auto-slider">
-                            <div id="slider">
-                                <figure>
-                                    <img src="assets/images/slider/2.png" alt="Image">
-                                    <img src="assets/images/slider/3.png" alt="Image">
-                                    <img src="assets/images/slider/4.png" alt="Image">
-                                    <img src="assets/images/slider/2.png" alt="Image">
-                                </figure>
-                    </div>
-                </section>
-                                  <!-- end slider -->
-                           
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <div>
-                    <p class="wow fadeInUp " data-wow-delay="0.5s" data-wow-duration="0.7s" style="font-size: 28px; text-align: center;  color: white; font-family:Russo One;">
-                        There’s clearly an under representation of our friendly felines across Defi. We have a simple solution.
-                    </p>
-                </div>
-
-                    <div class="avatar-container"> 
-                        <div class="cat-avatar">                                 
-                            <img src="assets/images/slider/MAU-SLIDER.png" alt="img" class="center-image" />
-                        </div>
-                    </div>
-
-
-                </div>
-
-            <!-- homeV4_participate Start -->
-            <div class="homeV4_participate_Sect" id="FAQ">
-                <div class="container">
-                    <div class="pt-130 md-pt-80 heading-area align-items-center d-flex justify-content-between wow fadeInUp mb-30" data-wow-delay="0.2s" data-wow-duration="0.4s">
-                        <div class="sec-heading LaunchProject">
-                            <div class="sub-inner mb-15">
-                                <span class="sub-title easySteps">6 easy steps</span>
-                            </div>
-                            <p class="title">How to buy $MAU token</p>
-                        </div>
-                    </div>
-                    <div class="participate-area row">
-                        <div class="col-lg-4">
-                            <div class="participate-item d-flex wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.4s">
-                                <div class="number-image">
-                                    1
-                                </div>
-                                <div class="participate-info">
-                                    <h4 class="mb-10">Download Pomtem Wallet</h4>
-                                    Download Petra wallet as either an extension to 
-                                    <a class="description" href="https://Petra.app" target="_blank">
-                                        Chrome
-                                    </a>
-                                     or
-                                    <a class="description" href="https://Petra.app" target="_blank">
-                                        IOS App Store
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="participate-item d-flex wow fadeInUp mr-30" data-wow-delay="0.3s" data-wow-duration="0.5s">
-                                <div class="number-image">
-                                    2
-                                </div>
-                                <div class="participate-info">
-                                    <h4 class="mb-10">Setup Wallet</h4>
-                                    <p class="description">
-                                        2.  Set up your wallet, Make sure to store your seed phase somewhere safe and secure!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="participate-item d-flex wow fadeInUp mr-20" data-wow-delay="0.4s" data-wow-duration="0.6s">
-                                <div class="number-image">
-                                    3
-                                </div>
-                                <div class="participate-info">
-                                    <h4 class="mb-10">Fund it</h4>
-                                    <p class="description">
-                                        Fund your wallet through Moon Pay or Transfer Aptos In through a CEX.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="participate-item d-flex wow fadeInUp mr-20" data-wow-delay="0.4s" data-wow-duration="0.6s">
-                                <div class="number-image">
-                                    4
-                                </div>
-                                <div class="participate-info">
-                                    <h4 class="mb-10">Go to BAPTSWAP</h4>
-                                    <a class="description" href="#" target="_blank">
-                                       Go to BAPTSWAP and connect your wallet 
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="participate-item d-flex wow fadeInUp mr-20" data-wow-delay="0.4s" data-wow-duration="0.6s">
-                                <div class="number-image">
-                                    5
-                                </div>
-                                <div class="participate-info">
-                                    <h4 class="mb-10">Swap it</h4>
-                                    <p class="description">
-                                        Swap Aptos for $MAU. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="participate-item d-flex wow fadeInUp mr-20" data-wow-delay="0.4s" data-wow-duration="0.6s">
-                                <div class="number-image">
-                                    6
-                                </div>
-                                <div class="participate-info">
-                                    <h4 class="mb-10">Start your Journey with $MAU</h4>
-                                    <p class="description">
-                                        Welcome to the ARMY!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-                    <!-- Tokenomics Section Start -->
-        <div class="Tokenomics_section main-project-area" id="Tokenomics">
-            <div class="container">
-                <div class="sec-inner align-items-center mt-10">
-                    <div class="sec-heading">
-                        <div class="sub-inner mt-20">
-                        </div>
-                        <p class="title mt-20 tokenomics">Tokenomics</p>
-                    </div>
-                    <div class="TokenomicsContents">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="TokenomicsContentsLeft wow fadeInLeft mt-20" data-wow-delay="0.2s" data-wow-duration="0.4s">
-                                    <h3 class="counter-number">Total Supply :  <span class="counter">1,000,000,000</span></h3>
-                                    <!-- <h3 class="counter-number">Maximum Hold per Wallet : <span class="counter">20,000,000</span></h3> -->
-                                    <h3 class="counter-number" style="font-size:15px"></h3>
-                                    <br>
-                                    <h3 class="counter-number"></h3>
-                                    <h3 class="counter-number" style="font-size: 20px; text-align:justify;">100% of MAU tokens entered circulation upon launch, a deliberate choice to reflect true community ownership. This approach ensures zero inflation, which we believe fosters a stronger sense of community among our members.</h3>
-                                    <h3 style="font-size: 10px;line-height: 15px;"></h3>
-                                    <br>
-                                    <h3 class="counter-number" style="font-size: 20px"></h3>
-                                    <h3 style="font-size: 10px;line-height:  15px;"></h3>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-
-
-                    <div class="avatar-container TokenomicsContentsright wow fadeInRight"> 
-                        <div class="avatar TokenomicsContentsrightImg">                                 
-                            <img src="assets/images/icons/tokenomics.png" alt="img" class="center-image" />
-                        </div>
-                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Tokenomics Section End -->
-
-        <!-- RoadMapV2 Section Start -->
-        <div class="RoadMapV2_section main-project-area" id="Roadmap">
-            <div class="container">
-                <div class="sec-inner align-items-center d-flex justify-content-between mb-30">
-                    <div class="sec-heading">
-                        <div class="sub-inner mb-15">
-                            <span class="sub-title ourGoals">Our Goals</span>
-                        </div>
-                        <h2 class="title">ROADMAP</h2>
-                    </div>
-                    <div class="gamfi-btn-area RoadmapTabBtns">
-                        <ul>
-                            <li class="tablinks m-0" onclick="openCity(event, 'RoadmapV2_2021')" id="defaultOpen">
-                                 <button class="readon white-btn black-shape"> 
-                                    <span class="btn-text"></span>
-                                    <span class="hover-shape1"></span>
-                                    <span class="hover-shape2"></span>
-                                    <span class="hover-shape3"></span>
-                                </button>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="RoadMapV2_TabContentSect">
-                    <div class="RoadMapShape">
-                        
-                    </div>
-                    <div id="RoadmapV2_2021" class="tabcontent animate_opacity">
-                        <div class="RoadmapV2TabContent RoadmapV2TabContent_2021">
-                           <div class="RoadMapSilkSliderSection">
-                               <div class="row m-0">
-                                   <div class="col-md-3">
-                                       <div class="RoadMapContents">
-                                           <h3>Q1</h3>
-                                           <div class="RoadmapListSect">
-                                               <ul>   
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Kitty Inception</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Purr-fect Build</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>V2 Launch: Unleash the Feline Power</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Upload to Tracking Platforms: Cat's Eye View</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Integrate with Wallets: Paw-some Transactions</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Dextools Claw-spection</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Coin Market Cat-p</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Coin Gecko: Gecko's Hideout</li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="col-md-3">
-                                       <div class="RoadMapContents">
-                                           <h3>Q2</h3>
-                                           <div class="RoadmapListSect">
-                                               <ul>
-                                                <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Marketing Begins: Cat-call to Action</li>
-                                                <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Partnerships: Whisker-tight Bonds</li>
-                                                <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Community Growth: Purr-sistent Expansion</li>
-                                                <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Staking Pools Opened: Purr-sonal Investments</li>
-                                                <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Influencers Onboard: Furry Advocates</li>
-                                                <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>MAU BURN: Feline Flames Ignite</li>
-                                            </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="col-md-3">
-                                       <div class="RoadMapContents">
-                                           <h3>Q3</h3>
-                                           <div class="RoadmapListSect">
-                                               <ul>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>More Influencers: Celebri-cats Join </li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Broader Market Cat-ch</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Trading Tools Opened</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Ease of Onpawrd: Purr-fect Accessibility</li> 
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>MAUtility Whitepaw-per </li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>MAUtility Beta Testing: Paws-itively Exciting Trials</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>MAUtlity Launch: Purr-ific Unveiling </li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>MAU BURN: Feline Fireworks Festival</li>                                              
-                                                </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="col-md-3">
-                                       <div class="RoadMapContents">
-                                           <h3>Q4</h3>
-                                           <div class="RoadmapListSect">
-                                               <ul>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Direct Debit Integration: Smooth Kitty Transactions</li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>MAUOON Confirmed: Moonlit Kitty Adventure </li>
-                                                   <li><span><img src="assets/images/kycimg/krug.svg" alt="" class="img-fluid" /></span>Purchase Nasdaq, Rename to MAUdaq: Catwalk on Wall Street</li>                                             
-                                                </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                        </div>
-                    </div>
-
-                    <div id="RoadmapV2_2023" class="tabcontent animate_opacity">
-                        <div class="RoadmapV2TabContent RoadmapV2TabContent_2023">
-                            <div class="RoadMapSilkSliderSection">
-                               <div class="row m-0 slickSlider_2023">
-                                  
-                               </div>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <span class="Frame1"><img src="assets/images/bg/RoadMapV2Fram.png" alt="" class="img-fluid" /></span>
-            <span class="Frame2"><img src="assets/images/bg/RoadMapV2Frame2.png" alt="" class="img-fluid" /></span>
-        </div>
-        <!-- RoadMapV2 Section End -->
-
-            <!-- Footer Section Start -->
-            <div class="gamfi-footer-section whites gamfi_Home4_footer_section">
-                <!-- div class="container">
-                    <div class="footer-cta-area text-center active-shape hover-shape-inner">
-                        <h2 class="title apply mb-15">
-                            Join our telegram<br />
-                        </h2>
-                        <div class="dsc igo mb-40 md-mb-30">
-                        </div>
-                        <a class="banner-btn wow fadeInUp black-shape" data-wow-delay="0.3s" data-wow-duration="0.5s" href="https://t.me/+Sp-ROiHxjlBlNzEy">
-                            <img src="assets/images/icons/telegram.png">
+        <!-- Banner Section Start -->
+        <div id="About" class="sc_banner_V3 sc_banner_V4 banner-bg position-relative">
+          <div class="container">
+            <div class="banner-content V3_BanerContent">
+              <div class="row">
+                <div class="col-md-12 col-lg-6 hero-content">
+                  <div class="sc_banner_V3_left ">
+                    <h2 class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">THE TIME IS MAU</h2>
+                    <p> Play as MAU to Score high, earn tokens, and invite friends to share in the fun and rewards!</p>
+                    <div class="fit">
+                      <div class="gamfi_V2_hero_Btns wow fadeInUp fit" data-wow-delay="0.6s" data-wow-duration="0.8s">
+                        <a href="#" target="_blank" class="readon white-btn hover-shape VIEW_Projects_Btn">
+                          <span class="btn-text">Buy Now</span>
+                          <span class="hover-shape1"></span>
+                          <span class="hover-shape2"></span>
+                          <span class="hover-shape3"></span>
                         </a>
+                        <a class="readon black-shape Apply_Project_Btn" href="https://t.me/MAU_Global">
+                          <span class="btn-text">Join Telegram</span>
+                          <span class="hover-shape1"></span>
+                          <span class="hover-shape2"></span>
+                          <span class="hover-shape3"></span>
+                        </a>
+                      </div>
+                      <div class="trio-wrapper hero">
+                        <!-- <img src="assets/images/about.png" alt="Gameplay" class="img-fluid responsive-image" /> -->
+                        <img src="assets/images/intro_circ1.gif" alt="Gameplay" class="img-fluid responsive-image" />
+                      </div>
                     </div>
-                </div> -->
-                <div class="footer-area HomeV4_FooterArea">
-                    <div class="container">
-                        <div class="sec-heading text-center">
-                            <div class="sub-inner mb-52 mb-mb-30">
-                                <img class="heading-right-image" src="assets/images/icons/steps2.png" alt="Steps-Image" />
-                                <span class="sub-title white-color">Find us on Social</span>
-                                <img class="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
-                            </div>
-                        </div>
-                        <div class="footer-listing text-center mb-100 md-mb-70 xs-mb-50">
-                            <ul class="footer-icon-list">
-                                <li><a href="https://twitter.com/Mau_Token"><img src="assets/images/icons/twitter.png" alt="" class="img-fluid"/></i></a></li>
-                                <li><a href=" https://t.me/MAUtoken"><img src="assets/images/icons/telegram.png" alt="" class="img-fluid"/></a></li>
-                                <li><a href=" mailto:MAUtoken@protonmail.com"><img src="assets/images/icons/mail.png" alt="" class="img-fluid"/></a></li>
-                                <li><a href="discord_link">
-                                </a></li>
-                                <li><a href="https://www.reddit.com/r/MAU_Token/"><img src="assets/images/icons/reddit.png" alt="" class="img-fluid"/></a></li>
-                                <li><a href="https://coinmarketcap.com/currencies/mau/"><img src="assets/images/icons/cmc.png" alt="" class="img-fluid"/></a></li>
-                                <li><a href="https://www.coingecko.com/en/coins/mau"><img src="assets/images/icons/cgk.png" alt="" class="img-fluid"/></a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-logo text-center mb-45">
-                            <img src="assets/images/logo.png" alt="Footer-logo" />
-                        </div>
-                        <div class="contract-address text-center mb-20">
-                            Official Contract Address:
-                            <a target="_blank" class="gafi" href="#">
-                                0x83b619e2d9e6e10d15ed4b714111a4cd9526c1c2ae0eec4b252a619d3e8bdda3::MAU::MAU
-                            </a>
-                        </div>
-                        
-                        <div class="copyright-area text-center mb-0">
-                            <div class="dsc mb-37 wheties md-mb-25">Copyright © 2024. All Rights Reserved by
-                                <a target="_blank" class="gafi" href="#">MAU</a>
-                            </div>
-                        </div>
-                        <div class="scrollup text-center">
-                            <a href="#gamfi-header"><i class="icon-arrow_up"></i></a>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div class="col-md-12 col-lg-6">
+                  <div class="responsive-container">
+                    <div class="video-wrapper">
+                      <video class="responsive-video" autoplay muted loop playsinline controls>
+                        <source src="assets/videos/trailer.MOV" type="video/mp4"> Your browser does not support the video tag. test test
+                      </video>
+                    </div>
+                    <div class="button-container">
+                      <a href="https://t.me/mauoon_bot">
+                        <img src="assets/images/play-btn.png" alt="Gameplay" style="max-width: 350px; height: auto;" class="img-fluid responsive-image" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- Footer Section End -->
+          </div>
         </div>
+        <!-- Banner Section End -->
+        <div class="mau_v4owl_carousel_sect">
+          <div class="mau_v4owl_carousel_content">
+            <ul>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame2.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame3.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame4.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame5.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame2.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame3.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame4.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame5.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame2.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame3.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame4.png" alt="icon" />
+                </span>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame5.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame2.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame3.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame4.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame5.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame2.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame3.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame4.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame5.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame2.png" alt="icon" />
+                </span>
+              </li>
+              <li>
+                <span>
+                  <img src="assets/images/icons/maugame3.png" alt="icon" />
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- home4 BG -->
-        
-
-        <!-- modernizr js -->
-        <script src="assets/js/modernizr-2.8.3.min.js"></script>
-        <!-- jquery latest version -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- Bootstrap v4.4.1 js -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- popup.min js -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- imagesloaded.pkgd.min js -->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <!-- wow js -->
-        <script src="assets/js/wow.min.js"></script>
-        
-        <!-- jquery counterup js -->
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <!-- counter top js -->
-        <script src="assets/js/waypoints.min.js"></script>
-        <!-- owl.carousel js -->
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <!-- plugins js -->
-        <script src="assets/js/plugins.js"></script>
-        <!-- Time Counter js -->
-        <script src="assets/js/time-counter.js"></script>
-        <!-- main js -->
-        <script src="assets/js/main.js"></script>
-        <!-- slickSlider js -->
-        <script src="assets/js/slick.min.js"></script>
-        <!-- Fire Flys JS -->
-        <script src="assets/js/fireflys.js"></script>
-        
-
-        <!--Staking Start-->
-        <script type="text/javascript">
-        setTimeout(function () {
-        $(".preload").fadeOut("slow", function () {
-            $(this).remove();
+        <!-- Project Section Start -->
+        <div class="gamfi-project-section ProjectPools_Sect main-project-area pb-0" id="Mission">
+          <div class="container">
+            <div class="sec-inner align-items-center d-flex justify-content-between mb-30">
+              <div class="sec-heading row">
+                <div class="col-md-12 col-lg-6">
+                  <div class="shadow-box">
+                    <h2 class="wow" data-wow-delay="0.4s" data-wow-duration="0.6s">Creating a world where Felines Reign Supreme</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s" style="font-size: 15px; text-align: left; color: white; font-family:Inter;"> 
+                        Blending GameFi and DeFi, <b>MAUOON</b> 
+                        is here to drive social expansion to the 
+                        Feline Army in an exciting and rewarding way! </p>
+                    <p class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s" style="font-size: 15px; text-align: left; color: white; font-family:Inter;">
+                        In a space dominated by dogs, <b>MAUOON</b>
+                        offers a fun and refreshing experience,
+                        with real rewards for both playing and
+                        referring fellow Felines  </p>
+                    <p class="wow fadeInUp " data-wow-delay="0.5s" data-wow-duration="0.7s" style="font-size: 15px; text-align: left;  color: white; font-family:Russo One;"> 
+                        <b>MAU’s Mission:</b><br>
+                        To build an engaging, lasting ecosystem
+                        where Felines can play, earn, and grow
+                        together! The time is MAU… </p>
+                    <div class="trio-wrapper section-2">
+                      <img src="assets/images/idea2.png" alt="Gameplay" class="img-fluid responsive-image" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                  <div class="responsive-container">
+                    <div class="videogif-wrapper">
+                      <img src="assets/videos/gameplay.GIF" alt="Gameplay" class="img-fluid responsive-image" />
+                    </div>
+                    <div class="button-container">
+                      <a href="#Game">
+                        <img src="assets/images/learn-btn.png" alt="Gameplay" style="width: 350px; height: auto;" class="img-fluid responsive-image" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="avatar-container" id="Game">
+              <!-- <div class="trio-wrapper"><img src="assets/images/game.png" alt="img" class="center-image" /></div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- homeV4_participate Start -->
+      <div class="homeV4_participate_Sect">
+        <div class="container">
+          <div class="participate-area row" hidden>
+            <div class="shadow-box-max2 ">
+              <img class="game-wrapper" src="assets/images/game.png" alt="img" class="center-image" />
+              <h2 data-wow-delay="0.4s" data-wow-duration="0.6s">MAU Game</h2>
+              <p> MAU is an endless runner game on Telegram where players navigate obstacles to achieve the highest XP among fellow felines. This play-to-earn (P2E) adventure features leaderboards, tournament modes, and a referral system that rewards players with MAU tokens for both playing and inviting friends. Enhance your gameplay by purchasing XP boosts, extra lives, and checkpoints through MAU’s Web3 payment solutions.</p>
+            </div>
+          </div>
+          <div class="swiper-container desktop-slider">
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="text-column shadow-box">
+                    <h3> Play-to-Earn and Refer-to-Earn </h3>
+                    <br>
+                    <p> * Earn XP every time you play MAU </p>
+                    <br>
+                    <p> * Gain additional XP by referring other felines to join the game </p>
+                    <br>
+                    <p> * The more you play and refer, the more XP and tokens you earn! </p>
+                    <br>
+                    <p> * XP is converted into MAU tokens! </p>
+                    <div>
+                      <a href="https://t.me/mauoon_bot" target="_blank">
+                        <img style="max-width: 80%; padding-left: 50px; padding-top: 50px;" src="assets/images/play-btn.png" alt="PLayNow" class="img-fluid responsive-image" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="gif-column">
+                    <img src="assets/videos/gameplay.GIF" alt="Gameplay GIF" />
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="text-column shadow-box">
+                    <h3> Payment System </h3>
+                    <p> * MAU integrates with major blockchains and popular wallet solutions </p>
+                    <br>
+                    <p> * Make payments directly within Telegram using the native token. </p>
+                    <p style="color: #ffffff00;"> * Game revenue rewards MAU holders through buy-backs, burns, and competitions to earn more MAU </p>
+                  </div>
+                  <div class="gif-column">
+                    <img src="assets/videos/payment.GIF" alt="Payment GIF" />
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="text-column shadow-box">
+                    <h3> Leaderboard</h3>
+                    <br>
+                    <p> * Earn XP based on performance and referrals </p>
+                    <br>
+                    <p> * XP increases exponentially with higher scores </p>
+                    <br>
+                    <p> * Every week, the Top 10 players win prizes from game inflows</p>
+                  </div>
+                  <div class="gif-column">
+                    <img src="assets/videos/leaderboard.gif" alt="Payment GIF" />
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="text-column shadow-box">
+                    <h3> In-App Purchases </h3>
+                    <br>
+                    <p> * Enhance your gameplay with Boosts, Lives, and Checkpoints </p>
+                    <br>
+                    <p> * Game revenue rewards MAU holders through buy-backs, burns, and competitions to earn more MAU </p>
+                    <br>
+                    <p style="color: #ffffff00;"> * Game revenue rewards MAU holders through buy-backs, burns, and competitions to earn more MAU </p>
+                  </div>
+                  <div class="gif-column">
+                    <img src="assets/videos/purchases.GIF" alt="Payment GIF" />
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 5 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="text-column shadow-box">
+                    <h3> Coming Soon: Tournaments (SocialFi) </h3>
+                    <br>
+                    <p> * V2 introduces PVP tournaments </p>
+                    <br>
+                    <p> * Compete against “ghost” versions of other players </p>
+                    <br>
+                    <p> * Winner takes the entire prize pool minus operator fee</p>
+                  </div>
+                  <div class="gif-column">
+                    <img src="assets/videos/comingsoon.gif" alt="Payment GIF" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pagination and navigation -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!------mobile view-->
+      <div class="roadmap-sect-bg shadow-box-max roadmap-desktop" id="Roadmap">
+        <div class="container roadmap-section">
+          <div class="roadmap-section">
+            <h2 class="roadmap-title"> Roadmap </h2>
+            <div class="timeline">
+              <img src="assets/images/rocket.png" alt="UFO" class="ufo-icon" id="ufo">
+              <!-- Phase 1 -->
+              <div class="timeline-item" id="phase-1">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Phase 1: "Purr-duction Begins"</h3>
+                  <ul>
+                    <li>• Launch play-to-earn game</li>
+                    <li>• Start earning tokens through gameplay and referrals</li>
+                    <li>• Social expansion through marketing and MAU game</li>
+                    <li>• Whitepaper Release</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Phase 2 -->
+              <div class="timeline-item" id="phase-2">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Phase 2: "The Cat’s Out of the Bag"</h3>
+                  <ul>
+                    <li>• Official MAU token launch</li>
+                    <li>• KOL and influencer marketing kicks off</li>
+                    <li>• Exchange Listings</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Phase 3 -->
+              <div class="timeline-item" id="phase-3">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Phase 3: "Claws for Glory"</h3>
+                  <ul>
+                    <li>• Tournament mode release for competitive feline duels</li>
+                    <li>• Battle cats in PvP mode for rewards</li>
+                    <li>• Social Expansion continues</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Phase 4 -->
+              <div class="timeline-item" id="phase-4">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Phase 4: "Nine Lives of Supurriority"</h3>
+                  <ul>
+                    <li>• Overpaw the Dogs!" as MAU conquers the token space</li>
+                    <li>• Establish MAU as the reigning feline force in DeFi!</li>
+                    <li>• Release of additional P2E games to grow and reward the MAU Army</li>
+                    <li>• Purrrchase Mars and allow Felines-only to visit</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content"></div>
+              </div>
+              <!-- Continue with more phases -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Roadmap (with Rocket Animation) -->
+      <div class="roadmap-mobile roadmap-sect-bg" id="RoadMap">
+        <h2 class="roadmap-title">ROADMAP</h2>
+        <img src="assets/images/rocket.png" alt="UFO" class="ufo-mobile-icon" id="ufo-mobile">
+        <!-- Phase 1 -->
+        <div class="mphase-card timeline-content">
+          <h3>Phase 1: "Purr-duction Begins"</h3>
+          <ul>
+            <li>• Launch play-to-earn game</li>
+            <li>• Start earning tokens through gameplay and referrals</li>
+            <li>• Social expansion through marketing and MAU game</li>
+            <li id="mphase-1">• Whitepaper Release</li>
+          </ul>
+        </div>
+        <!-- Phase 2 -->
+        <div class="mphase-card timeline-content">
+          <h3>Phase 2: "The Cat’s Out of the Bag"</h3>
+          <ul>
+            <li>• Official MAU token launch</li>
+            <li>• KOL and influencer marketing kicks off</li>
+            <li id="mphase-2">• Exchange Listings</li>
+          </ul>
+        </div>
+        <!-- Phase 3 -->
+        <div class="mphase-card timeline-content">
+          <h3>Phase 3: "Claws for Glory"</h3>
+          <ul>
+            <li>• Tournament mode release for competitive feline duels</li>
+            <li>• Battle cats in PvP mode for rewards</li>
+            <li id="mphase-3">• Social Expansion continues</li>
+          </ul>
+        </div>
+        <!-- Phase 4 -->
+        <div class="timeline-content mphase-card">
+          <h3>Phase 4: "Nine Lives of Supurriority"</h3>
+          <ul>
+            <li>• Overpaw the Dogs!" as MAU conquers the token space</li>
+            <li>• Establish MAU as the reigning feline force in DeFi!</li>
+            <li>• Release of additional P2E games to grow and reward the MAU Army</li>
+            <li id="mphase-4">• Purrrchase Mars and allow Felines-only to visit</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Footer Section Start -->
+      <div class="gamfi-footer-section whites gamfi_Home4_footer_section">
+        <!-- div class="container"><div class="footer-cta-area text-center active-shape hover-shape-inner"><h2 class="title apply mb-15">
+                            Join our telegram<br /></h2><div class="dsc igo mb-40 md-mb-30"></div><a class="banner-btn wow fadeInUp black-shape" data-wow-delay="0.3s" data-wow-duration="0.5s" href="https://t.me/+Sp-ROiHxjlBlNzEy"><img src="assets/images/icons/telegram.png"></a></div></div> -->
+        <div class="footer-area HomeV4_FooterArea">
+          <div class="container">
+            <div class="sec-heading text-center">
+              <div class="sub-inner mb-52 mb-mb-30">
+                <img class="heading-right-image" src="assets/images/icons/steps2.png" alt="Steps-Image" />
+                <span class="sub-title white-color">Find us on Social</span>
+                <img class="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
+              </div>
+            </div>
+            <div class="footer-listing text-center mb-100 md-mb-70 xs-mb-50">
+              <ul class="footer-icon-list">
+                <li>
+                  <a href="https://twitter.com/Mau_Token">
+                    <img src="assets/images/icons/twitter.png" alt="" class="img-fluid" />
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href=" https://t.me/MAU_Global">
+                    <img src="assets/images/icons/telegram.png" alt="" class="img-fluid" />
+                  </a>
+                </li>
+                <li>
+                  <a href=" mailto:MAUtoken@protonmail.com">
+                    <img src="assets/images/icons/mail.png" alt="" class="img-fluid" />
+                  </a>
+                </li>
+                <li>
+                  <a href="discord_link"></a>
+                </li>
+                <li>
+                  <a href="https://www.reddit.com/r/MAU_Token/">
+                    <img src="assets/images/icons/reddit.png" alt="" class="img-fluid" />
+                  </a>
+                </li>
+                <!-- <li><a href="https://coinmarketcap.com/currencies/mau/"><img src="assets/images/icons/cmc.png" alt="" class="img-fluid" /></a></li> -->
+                <!-- <li><a href="https://www.coingecko.com/en/coins/mau"><img src="assets/images/icons/cgk.png" alt="" class="img-fluid" /></a></li> -->
+              </ul>
+            </div>
+            <div class="footer-logo text-center mb-45">
+              <img src="assets/images/logoweb.png" alt="Footer-logo" />
+            </div>
+            <div class="copyright-area text-center mb-0">
+              <div class="dsc mb-37 wheties md-mb-25">Copyright © 2024. All Rights Reserved by <a target="_blank" class="gafi" href="#">MAU</a>
+              </div>
+            </div>
+            <div class="scrollup text-center">
+              <a href="#gamfi-header">
+                <i class="icon-arrow_up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Section End -->
+    </div>
+    </div>
+    <!-- home4 BG -->
+    <!-- modernizr js -->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+    <!-- jquery latest version -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap v4.4.1 js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- popup.min js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- imagesloaded.pkgd.min js -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- jquery counterup js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- counter top js -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- plugins js -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- Time Counter js -->
+    <script src="assets/js/time-counter.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <!-- slickSlider js -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Fire Flys JS -->
+    <script src="assets/js/fireflys.js"></script>
+    <!--Staking Start-->
+    <script type="text/javascript">
+      setTimeout(function() {
+        $(".preload").fadeOut("slow", function() {
+          $(this).remove();
         });
-        }, 800);
-        </script>
-        <script>
+      }, 800);
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('.flip_card_btn').click(function() {
+          $('.staking_flip_card1').addClass("active");
+          $('.staking_flip_card2').removeClass("active");
+          $('.staking_flip_card3').removeClass("active");
+        });
+      });
+      $(document).ready(function() {
+        $('.flip_card_btn2').click(function() {
+          $('.staking_flip_card2').addClass("active");
+          $('.staking_flip_card1').removeClass("active");
+          $('.staking_flip_card3').removeClass("active");
+        });
+      });
+      $(document).ready(function() {
+        $('.flip_card_btn3').click(function() {
+          $('.staking_flip_card3').addClass("active");
+          $('.staking_flip_card1').removeClass("active");
+          $('.staking_flip_card2').removeClass("active");
+        });
+      });
+      $(document).ready(function() {
+        $('.staking_flip_card_close_btn').click(function() {
+          $('.staking_flip_card').removeClass("active");
+        });
+      });
+      function toggleRoadmapId() {
+        if ($(window).width() >= 768) {
+            // Desktop view
+            $('.roadmap-desktop').attr('id', 'Roadmap');
+            $('.roadmap-mobile').removeAttr('id');
+        } else {
+            // Mobile view
+            $('.roadmap-mobile').attr('id', 'Roadmap');
+            $('.roadmap-desktop').removeAttr('id');
+        }
+      }
 
-$(document).ready(function() {
-                $('.flip_card_btn').click(function() {
-                    $('.staking_flip_card1').addClass("active");
-                    $('.staking_flip_card2').removeClass("active");
-                    $('.staking_flip_card3').removeClass("active");
-                });
-            });
-            $(document).ready(function() {
-                $('.flip_card_btn2').click(function() {
-                    $('.staking_flip_card2').addClass("active");
-                    $('.staking_flip_card1').removeClass("active");
-                    $('.staking_flip_card3').removeClass("active");
-                });
-            });
-            $(document).ready(function() {
-                $('.flip_card_btn3').click(function() {
-                    $('.staking_flip_card3').addClass("active");
-                    $('.staking_flip_card1').removeClass("active");
-                    $('.staking_flip_card2').removeClass("active");
-                });
-            });
-            $(document).ready(function() {
-                $('.staking_flip_card_close_btn').click(function() {
-                    $('.staking_flip_card').removeClass("active");
-                });
-            });
+      // Initial check
+      toggleRoadmapId();
 
-        </script>
-        <!--Staking End-->
-        <!-- FAQ JS -->   
-        <script>
-            // Get all Accordion and Panel
-            let accHeading = document.querySelectorAll(".accordion");
-            let accPanel = document.querySelectorAll(".accordion-panel");
-
-            for (let i = 0; i < accHeading.length; i++) {
-                // Execute whenever an accordion is clicked 
-                accHeading[i].onclick = function() {
-                    if (this.nextElementSibling.style.maxHeight) {
-                        hidePanels(); // Hide All open Panels 
-                    } else {
-                        showPanel(this); // Show the panel
-                    }
-                };
+      // Re-check on window resize
+      $(window).resize(function () {
+          toggleRoadmapId();
+      });
+    </script>
+    <!--Staking End-->
+    <!-- FAQ JS -->
+    <script>
+      // Get all Accordion and Panel
+      let accHeading = document.querySelectorAll(".accordion");
+      let accPanel = document.querySelectorAll(".accordion-panel");
+      for (let i = 0; i < accHeading.length; i++) {
+        // Execute whenever an accordion is clicked 
+        accHeading[i].onclick = function() {
+          if (this.nextElementSibling.style.maxHeight) {
+            hidePanels(); // Hide All open Panels 
+          } else {
+            showPanel(this); // Show the panel
+          }
+        };
+      }
+      // Function to Show a Panel
+      function showPanel(elem) {
+        hidePanels();
+        elem.classList.add("active");
+        elem.nextElementSibling.style.maxHeight = elem.nextElementSibling.scrollHeight + "px";
+      }
+      // Function to Hide all shown Panels
+      function hidePanels() {
+        for (let i = 0; i < accPanel.length; i++) {
+          accPanel[i].style.maxHeight = null;
+          accHeading[i].classList.remove("active");
+        }
+      }
+    </script>
+    <!-- RoadMap Tab -->
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+    <!--RoadMapV2 Slide-->
+    <script>
+      $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+      });
+      $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: true,
+        focusOnSelect: true
+      });
+      $('a[data-slide]').click(function(e) {
+        e.preventDefault();
+        var slideno = $(this).data('slide');
+        $('.slider-nav').slick('slickGoTo', slideno - 1);
+      });
+    </script>
+    <!--Our Partnar Show hide-->
+    <script>
+      $('.ShowMoreBtnSect button').click(function() {
+        $('.ShowMoreBtnSect button').toggleClass('active');
+      });
+      $(document).ready(function() {
+        $(".ShowMoreBtnSect button").click(function() {
+          $(".Our_PARTNERSContnetSect .overlay").fadeToggle();
+          $(".Our_PARTNERSContnetSect .OurPartnatList li.hidden").fadeToggle();
+        });
+      });
+    </script>
+    <!-- Our Projct Tab js -->
+    <script>
+      function openProject(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("ProjectV2_tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("ProjectV2_tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("OpenProject").click();
+    </script>
+    <script type="text/javascript">
+      var counter = 2;
+      setInterval(function() {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if (counter > 3) {
+          counter = 1;
+        }
+      }, 3000);
+    </script>
+    <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+    <script>
+      // Desktop Rocket Animation
+      if (window.innerWidth > 768) { // Runs only for desktop
+        window.addEventListener('scroll', function() {
+          const ufo = document.getElementById('ufo');
+          const phases = document.querySelectorAll('.timeline-item');
+          const viewportHeight = window.innerHeight;
+          let ufoYPosition = 0;
+          phases.forEach((phase, index) => {
+            const phasePosition = phase.getBoundingClientRect().top;
+            // Check if the phase is in the viewport
+            if (phasePosition < viewportHeight - 100 && phasePosition > 0) {
+              // Move the UFO downward based on the phase position
+              ufoYPosition = phase.offsetTop - 50; // Adjust the 50px for spacing
             }
-
-            // Function to Show a Panel
-            function showPanel(elem) {
-                hidePanels();
-                elem.classList.add("active");
-                elem.nextElementSibling.style.maxHeight = elem.nextElementSibling.scrollHeight + "px";
+          });
+          // Update UFO position with smooth movement
+          ufo.style.transform = `translateY(${ufoYPosition}px)`;
+        });
+      }
+      // Rocket Animation for Mobile Only
+      if (window.innerWidth <= 768) { // Runs only for mobile screens
+        window.addEventListener('scroll', function() {
+          const ufoMobile = document.getElementById('ufo-mobile');
+          const phasesMobile = document.querySelectorAll('.mphase-card');
+          const viewportHeight = window.innerHeight;
+          let ufoMobileYPosition = 0;
+          phasesMobile.forEach((phase, index) => {
+            const phasePosition = phase.getBoundingClientRect().top;
+            // Check if the phase is in the viewport
+            if (phasePosition < viewportHeight - 100 && phasePosition > 0) {
+              // Move the UFO to match the current phase's position
+              ufoMobileYPosition = phase.offsetTop - 50; // Adjust for positioning
+              console.log('Rocket Y Position:', ufoMobileYPosition);
             }
-
-            // Function to Hide all shown Panels
-            function hidePanels() {
-                for (let i = 0; i < accPanel.length; i++) {
-                    accPanel[i].style.maxHeight = null;
-                    accHeading[i].classList.remove("active");
-                }
-            }
-        </script>
-        <!-- RoadMap Tab --> 
-        <script>
-            function openCity(evt, cityName) {
-                var i, tabcontent, tablinks;
-                tabcontent = document.getElementsByClassName("tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
-                }
-                tablinks = document.getElementsByClassName("tablinks");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                }
-                document.getElementById(cityName).style.display = "block";
-                evt.currentTarget.className += " active";
-            }
-
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-        </script>
-        <!--RoadMapV2 Slide-->
-        <script>
-            $('.slider-for').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: false,
-                fade: true,
-                asNavFor: '.slider-nav'
-            });
-            $('.slider-nav').slick({
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                asNavFor: '.slider-for',
-                dots: true,
-                focusOnSelect: true
-            });
-
-            $('a[data-slide]').click(function(e) {
-                e.preventDefault();
-                var slideno = $(this).data('slide');
-                $('.slider-nav').slick('slickGoTo', slideno - 1);
-            });
-        </script>
-                     
-        <!--Our Partnar Show hide-->
-        <script>
-            $('.ShowMoreBtnSect button').click(function() {
-                $('.ShowMoreBtnSect button').toggleClass('active');
-            });
-            
-            $(document).ready(function() {
-                $(".ShowMoreBtnSect button").click(function() {
-                    $(".Our_PARTNERSContnetSect .overlay").fadeToggle();
-                    $(".Our_PARTNERSContnetSect .OurPartnatList li.hidden").fadeToggle();
-                });
-            });
-        </script>
-        <!-- Our Projct Tab js -->
-        <script>
-            function openProject(evt, cityName) {
-                var i, tabcontent, tablinks;
-                tabcontent = document.getElementsByClassName("ProjectV2_tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
-                }
-                tablinks = document.getElementsByClassName("ProjectV2_tablinks");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                }
-                document.getElementById(cityName).style.display = "block";
-                evt.currentTarget.className += " active";
-            }
-            document.getElementById("OpenProject").click();
-        </script>
-        <script type="text/javascript">
-            var counter =2;
-            setInterval(function(){
-                document.getElementById('radio' + counter).checked = true;
-                counter++;
-                if(counter > 3){
-                    counter = 1;
-                }
-            }, 3000);
-        </script>
-        <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
-    </body>
-
+          });
+          // Update UFO position with smooth movement
+          ufoMobile.style.transform = `translateY(${ufoMobileYPosition}px)`;
+        });
+      }
+    </script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop: true
+      });
+    </script>
+    <script>
+      const swiper = new Swiper('.swiper-container.desktop-slider', {
+        clickable: true,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+        }
+      });
+    </script>
+  </body>
 </html>

@@ -12,7 +12,10 @@
 **/
 
 @media only screen and (min-width: 1200px) {
-  .container {
+  /* .container {
+    max-width: 1200px;
+  } */
+  #About > .container {
     max-width: 1200px;
   }
 }
@@ -28,7 +31,11 @@
 
 }
 
-@media only screen and (max-width: 1600px) {}
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1000px;
+    }
+}
 
 @media only screen and (max-width: 1366px) {
   
@@ -2512,6 +2519,7 @@
     .sidebar-logo img,
     .gamfi-header-section .logo img{
         max-width: 120px;
+        width: 100%;
     }
     .gamfi-header-section .gamfi-btn-area ul .nav-expander {
         margin-top: 0;

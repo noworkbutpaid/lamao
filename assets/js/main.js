@@ -29,7 +29,15 @@
       }
     });
   });
-
+  
+  $(document).ready(function() {
+    // Ensure nav-expander and nav-close work
+    $('#nav-expander, #nav-close2').on('click', function(e) {
+        e.preventDefault();
+        $('body').toggleClass('nav-expanded');
+        $('#mobile-navbar-menu').toggleClass('open-menu');  // Add a class to open/close the menu
+    });
+});
   // wow init
   new WOW().init();
 

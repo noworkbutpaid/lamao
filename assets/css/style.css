@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&amp;display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Russo+One:wght@300;400;500;600;700;800;900&amp;display=swap");
 @charset "utf-8";
 
 @font-face {
@@ -11,59 +12,59 @@
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf) format('truetype');
+    src: url(http://fonts.gstatic.com/s/Russo One/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZg.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf) format('truetype');
+    src: url(http://fonts.gstatic.com/s/Russo One/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZg.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf) format('truetype');
+    src: url(http://fonts.gstatic.com/s/Russo One/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf) format('truetype');
+    src: url(http://fonts.gstatic.com/s/Russo One/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZg.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf) format('truetype');
+    src: url(http://fonts.gstatic.com/s/Russo One/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZg.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 800;
     font-display: swap;
-    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf) format('truetype');
+    src: url(http://fonts.gstatic.com/s/Russo One/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZg.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url(http://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf) format('truetype');
+    src: url(http://fonts.gstatic.com/s/Russo One/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZg.ttf) format('truetype');
 }
 
 /* -----------------------------------/
@@ -73,7 +74,7 @@ html,
 body {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
-    font-family: "Inter", sans-serif;
+    font-family: "Russo One", sans-serif;
     vertical-align: baseline;
     line-height: 1.6;
     font-weight: 500;
@@ -583,6 +584,7 @@ body .modal-backdrop {
     color: #fff;
     font-family: 'Geometria';
     font-weight: 600;
+    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -667,7 +669,7 @@ body .modal-backdrop {
     display: block;
     background-color: #000;
     transition: all .5s ease;
-    cursor: pointer;
+    cursor: poRusso One;
     list-style: none;
 }
 .gamfi-header-section .gamfi-btn-area ul .nav-expander .bar.glav span {
@@ -675,7 +677,7 @@ body .modal-backdrop {
     display: block;
     background: #FFF;
     transition: all .5s ease;
-    cursor: pointer;
+    cursor: poRusso One;
     list-style: none;
 }
 
@@ -721,7 +723,7 @@ body .modal-backdrop {
     display: block;
     z-index: 99;
     right: 57px;
-    cursor: pointer;
+    cursor: poRusso One;
     transition: all .3s ease;
 }
 
@@ -773,6 +775,7 @@ body .modal-backdrop {
     position: relative;
 }
 
+
 .gamfi-header-section .mobile-navbar-menu .nav-menu li a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     display: block;
@@ -799,7 +802,7 @@ body .modal-backdrop {
     display: block;
     height: 40px;
     width: 40px;
-    cursor: pointer;
+    cursor: poRusso One;
 }
 
 .gamfi-header-section .mobile-navbar-menu span.submenu-button:before,
@@ -835,7 +838,7 @@ body .modal-backdrop {
 
 .gamfi-header-section .mobile-navbar-menu .hash-has-sub span.submenu-button {
     width: 100%;
-    cursor: pointer;
+    cursor: poRusso One;
     top: 0;
     height: 50px;
 }
@@ -1128,7 +1131,7 @@ body .modal-backdrop {
  ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color:    #FFF;
  }
- :-ms-input-placeholder { /* Internet Explorer 10+ */
+ :-ms-input-placeholder { /* Russo Onenet Explorer 10+ */
     color:    #FFF;
  }
 .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
@@ -1152,7 +1155,7 @@ body .modal-backdrop {
 
 .gamfi-breadcrumbs-section .breadcrumbs-form .submit i {
     font-size: 15px;
-    cursor: pointer;
+    cursor: poRusso One;
     padding: 0;
     color: rgba(255, 255, 255, 0.7);
     position: relative;
@@ -1221,6 +1224,21 @@ body .modal-backdrop {
     font-family: "Russo One", sans-serif;
     text-transform: uppercase;
     transition: 0.4s;
+}
+/* Mobile menu style */
+.right_menu_togle {
+    right: -500px; /* Initially hidden off-screen */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* When the body has the class 'nav-expanded', the menu slides in */
+.nav-expanded nav.right_menu_togle {
+    right: 0 !important; /* The menu slides in from the right */
+}
+
+/* New class for mobile menu open state */
+.open-menu {
+    right: 0 !important; /* When the class is toggled, the menu opens */
 }
 
 .gamfi-navigation ul li a .icon-Vector {
@@ -1355,7 +1373,7 @@ body .modal-backdrop {
 }
 
 .gamfi-about-secion .targeted-raise .all-raise {
-    font-family: "Inter", sans-serif;
+    font-family: "Russo One", sans-serif;
 }
 
 .gamfi-about-secion .total-price,
@@ -1784,7 +1802,7 @@ body .modal-backdrop {
 }
 
 .project-details-conent .project-item .date-listing li button {
-    cursor: pointer;
+    cursor: poRusso One;
     border: 2px solid;
     transition: 0.4s;
     color: #fff;
@@ -1867,7 +1885,7 @@ body .modal-backdrop {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
+    cursor: poRusso One;
     background: transparent;
 }
 
@@ -1877,7 +1895,7 @@ body .modal-backdrop {
 }
 
 .project-details-conent .project-item .date-listing li label {
-    cursor: pointer;
+    cursor: poRusso One;
     border: 2px solid;
     transition: 0.4s;
     color: #fff;
@@ -2486,19 +2504,19 @@ body .modal-backdrop {
 
 .gamfi-previous-section .form-check {
     padding: 17px 68px;
-    cursor: pointer;
+    cursor: poRusso One;
 }
 
 .gamfi-previous-section .form-check input,
 .gamfi-previous-section .form-check label {
-    cursor: pointer;
+    cursor: poRusso One;
 }
 
 .gamfi-previous-section .form-switch {
     font-family: "Russo One", sans-serif;
     text-transform: uppercase;
     transition: 0.4s;
-    cursor: pointer;
+    cursor: poRusso One;
     border-right: 0px;
     padding: 18px 28px;
 }
@@ -2522,7 +2540,7 @@ body .modal-backdrop {
 
 .gamfi-previous-section .form-switch .slider {
     position: absolute;
-    cursor: pointer;
+    cursor: poRusso One;
     top: 0;
     left: 0;
     right: 0;
@@ -2802,7 +2820,7 @@ body .modal-backdrop {
 }
 
 .gamfi-previous-section .calender-image-area img {
-    cursor: pointer;
+    cursor: poRusso One;
 }
 
 .gamfi-previous-section .calender-image-area .project-item {
@@ -2830,7 +2848,7 @@ body .modal-backdrop {
     background: #1A1B30;
     padding: 18px 25px;
     margin-bottom: 20px;
-    cursor: pointer;
+    cursor: poRusso One;
 }
 
 .gamfi-farming-content .list-content {
@@ -2946,7 +2964,7 @@ body .modal-backdrop {
 
 .gamfi-farming-content .icon-arrow_up {
     padding: 10px;
-    cursor: pointer;
+    cursor: poRusso One;
 }
 
 .gamfi-farming-content .expeand-centent {
@@ -2961,7 +2979,7 @@ body .modal-backdrop {
 
 .gamfi-farming-content .expeand-arrow {
     padding: 10px;
-    cursor: pointer;
+    cursor: poRusso One;
 }
 
 .gamfi-farming-content .expeand-arrow .expeand-arrow {
@@ -3044,7 +3062,7 @@ body .modal-backdrop {
 }
 
 .gamfi-farming-table tr th {
-    font-family: "Inter", sans-serif;
+    font-family: "Russo One", sans-serif;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 400;
     text-transform: uppercase;
@@ -3516,7 +3534,7 @@ body .modal-backdrop {
     margin: 10px auto;
     height: 30px;
     z-index: 9;
-    cursor: pointer;
+    cursor: poRusso One;
     -webkit-transition: all 0.25s linear;
 }
 
@@ -3598,7 +3616,7 @@ body .modal-backdrop {
 
 .gamfi-form-content .address-form .icon-input-box input {
     padding-left: 80px;
-    font-family: "Inter", sans-serif;
+    font-family: "Russo One", sans-serif;
 }
 
 .gamfi-form-content .address-form .project-btn-area {
@@ -3959,7 +3977,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
     padding: 15px 30px;
     margin-bottom: 20px;
     position: relative;
-    cursor: pointer;
+    cursor: poRusso One;
     border-radius: 29px;
 }
 
@@ -4153,7 +4171,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
     color: #FFFFFF;
 }
 .kycForm p {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4173,7 +4191,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
     padding: 17px 20px;
     margin-bottom: 35px;
     position: relative;
-    cursor: pointer;
+    cursor: poRusso One;
     margin-top: 17px;
 }
 .kycCountryDropbox::after {
@@ -4187,7 +4205,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
 }
 .kycCountryDropbox span {}
 .kycCountryDropbox h4 {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4228,7 +4246,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
     position: relative;
     padding-left: 32px;
     margin-bottom: 0px;
-    cursor: pointer;
+    cursor: poRusso One;
     font-size: 22px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -4250,7 +4268,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
 .KycRadioBtn .container input {
     position: absolute;
     opacity: 0;
-    cursor: pointer;
+    cursor: poRusso One;
 }
 .KycRadioBtn .checkmark {
     position: absolute;
@@ -4357,7 +4375,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
     box-shadow: 4px;
 }
 .kycCountryDropList ul li {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4368,7 +4386,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    cursor: pointer;
+    cursor: poRusso One;
 }
 .kycCountryDropList ul li:hover {
     color: #ffffff;
@@ -4423,7 +4441,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
 }
 
 .TeamMembersInfo p {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4453,7 +4471,7 @@ background-image: linear-gradient(0deg, #f24270 0%, #fb5f01 100%);
 }
 
 .TeamMembersContact ul li span {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4501,7 +4519,7 @@ Kyc Upload Docs
     width: 32%;
 }
 .kycForm .UploadDocSect ul li h4 {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -4565,7 +4583,7 @@ Kyc Upload Docs
 }
 .UploadDocCheckList ul{}
 .UploadDocCheckList ul li {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4609,7 +4627,7 @@ Kyc Upload Docs
     border: 2px solid rgba(255, 255, 255, 0.15);
     box-sizing: border-box;
     height: 60px;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4654,7 +4672,7 @@ Kyc Upload Docs
     border: 2px solid rgba(255, 255, 255, 0.15);
     box-sizing: border-box;
     background: Transparent;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4695,7 +4713,7 @@ Kyc Upload Docs
     margin-top: 7px;
 }
 .KYC_TramsAndCondetionSect lable {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4704,7 +4722,7 @@ Kyc Upload Docs
     margin-left: 14px;
 }
 .KYC_TramsAndCondetionSect lable a {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4714,7 +4732,7 @@ Kyc Upload Docs
 .KYC_TramsAndCondetionSect .container input {
     position: absolute;
     opacity: 0;
-    cursor: pointer;
+    cursor: poRusso One;
     display: none;
 }
 .KYC_TramsAndCondetionSect .checkmark {
@@ -4787,7 +4805,7 @@ Kyc Upload Docs
     justify-content: space-between;
 }
 .KycYourDocumentsContent ul li p {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4850,7 +4868,7 @@ Kyc Upload Docs
     border: 2px solid rgba(255, 255, 255, 0.15);
     box-sizing: border-box;
     background: Transparent;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4865,7 +4883,7 @@ Kyc Upload Docs
     border: 2px solid rgba(255, 255, 255, 0.15);
     box-sizing: border-box;
     background: Transparent;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4953,7 +4971,7 @@ Kyc Upload Docs
     margin-bottom: 0px;
 }
 .cotactInfoContent .cotactInfoText h6 {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -4962,7 +4980,7 @@ Kyc Upload Docs
     margin-bottom: 0px;
 }
 .cotactInfoContent .cotactInfoText a {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5030,7 +5048,7 @@ Kyc Upload Docs
     color: #FFFFFF;
 }
 .SignUp_SignIn_Form h3 {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5043,7 +5061,7 @@ Kyc Upload Docs
     margin-bottom: 29px;
 }
 .SignUp_SignIn_Form.signInForm h3 {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5056,7 +5074,7 @@ Kyc Upload Docs
     margin-bottom: 29px;
 }
 .SignUp_SignIn_Form.ForgotPassForm h3 {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5088,7 +5106,7 @@ Kyc Upload Docs
     height: 60px;
     border: 2px solid rgba(255, 255, 255, 0.15);
     box-sizing: border-box;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5116,7 +5134,7 @@ Kyc Upload Docs
 }
 
 .SignUp_SignIn_Form h4 {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5127,7 +5145,7 @@ Kyc Upload Docs
     margin-bottom: 0px;
 }
 .SignUp_SignIn_Form h4 a {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5144,7 +5162,7 @@ Kyc Upload Docs
     margin-top: 10px;
 }
 .forgetPassBtnSect .ForgetPass a {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5304,7 +5322,7 @@ Kyc Upload Docs
     
 }
 .RodmapConetentbox ul li {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -5443,7 +5461,7 @@ Kyc Upload Docs
     color: #F82552;
 }
 .gamfi_V2_hero_Left p {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -5452,12 +5470,199 @@ Kyc Upload Docs
     margin-top: 22px;
 }
 
+.responsive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.responsive-video {
+    width: 100%;
+    /* height: auto; */
+    height: 100%;
+    max-height: 100%; /* Ensure the video scales within the max height */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+.video-wrapper {
+    width: 100%;
+    max-width: 450px; /* Optional: Adjust the max width of the video */
+    max-height: 700px; /* Adjust to your preferred height */
+    overflow: hidden;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 0 20px 10px rgba(0, 255, 255, 0.6); /* Glowing effect */
+    animation: glowing 2s infinite;
+}
+
+.mobile-gif-wrapper {
+    width: 100%;
+    max-width: 450px; /* Optional: Adjust the max width of the video */
+    max-height: 700px; /* Adjust to your preferred height */
+    overflow: hidden;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 0 10px 5px rgba(0, 236, 228, 0.6); /* Glowing effect */
+    animation: glowing 3s infinite;
+    padding-bottom: 20px;
+}
+
+.videogif-wrapper {
+    width: 100%;
+    max-width: 450px; /* Optional: Adjust the max width of the video */
+    max-height: 700px; /* Adjust to your preferred height */
+    overflow: hidden;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 0 10px 5px rgba(0, 236, 228, 0.6); /* Glowing effect */
+    animation: glowing 3s infinite;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 20px 5px rgba(0, 255, 247, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 30px 15px rgba(0, 234, 255, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 20px 5px rgba(0, 238, 255, 0.6);
+    }
+}
+
+.image-wrapper {
+    width: 100%;
+    max-width: 450px; /* Optional: Adjust the max width of the video */
+    max-height: 700px; /* Adjust to your preferred height */
+    overflow: hidden; /* Ensures any excess content is hidden */
+}
+
+
+.gif-wrapper {
+    width: 100%;
+    max-width: 450px; /* Optional: Adjust the max width of the video */
+    max-height: 600px; /* Adjust to your preferred height */
+    overflow: hidden; /* Ensures any excess content is hidden */
+}
+
+.trio-wrapper {
+    width: 100%;
+    max-width: 700px; /* Optional: Adjust the max width of the video */
+    max-height: 700px; /* Adjust to your preferred height */
+    overflow: hidden; /* Ensures any excess content is hidden */
+}
+
+.trio-wrapper {
+    width: 100%;
+    max-width: 700px; /* Optional: Adjust the max width of the video */
+    max-height: 700px; /* Adjust to your preferred height */
+    overflow: hidden; /* Ensures any excess content is hidden */
+    text-align: -webkit-center;
+}
+
+
+.game-wrapper {
+    /* width: 100%; */
+    max-width: 700px; /* Optional: Adjust the max width of the video */
+    max-height: 500px; /* Adjust to your preferred height */
+    overflow: hidden; /* Ensures any excess content is hidden */
+    margin-bottom: -80px;
+    margin-top: -20px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .game-wrapper {
+        max-width: 250px; /* Optional: Adjust the max width of the video */
+        max-height: 250px;/* Adjust the height to be proportional to the width */
+        margin-bottom: 0px; /* Reset the margin for mobile view */
+        margin-top: -10px; /* Adjust the top margin to fit the mobile layout */
+    }
+    
+    .game-wrapper img {
+        max-width: 250px; /* Optional: Adjust the max width of the video */
+        max-height: 250px; /* Maintain aspect ratio */
+        display: block;
+        margin: 0 auto; /* Center the image in mobile view */
+    }
+    
+    .mau-game-heading {
+        font-size: 24px; /* Adjust the font size for mobile */
+        text-align: center; /* Center the heading text */
+    }
+}
+
+
+.responsive-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Ensure it scales within the set height */
+    display: block;
+    border-radius: 8px; /* Optional: Add some rounding to the image corners */
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.learn-more-btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: #e68a00; /* Darken the button on hover */
+}
+/* General styles for image containers */
+.responsive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Staggered effect */
+.stagger-up {
+    transform: translateY(-20px); /* Moves the first image up */
+}
+
+.stagger-down {
+    transform: translateY(200px); /* Moves the second image down */
+}
+
+/* General image styles */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .responsive-container {
+        /* margin-bottom: 20px; */
+        transform: none; /* Remove the staggered effect on mobile */
+    }
+    .stagger-down {
+        transform: translateY(20px); /* Moves the second image down */
+    }
+}
+
+
+
 .gamfi_V2_hero_Btns{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 106px;
+    margin-top: 20px;
 }
 .gamfi_V2_hero_Btns .VIEW_Projects_Btn{
     width: 200px;
@@ -5937,7 +6142,7 @@ background: #0f093fa8;
 .Key_Points_Item_Text p {
     max-width: 249px;
     width: 100%;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -6025,7 +6230,7 @@ background: #0f093fa8;
 }
 
 .Tier_System_Items ul li {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -6264,7 +6469,7 @@ background: #0f093fa8;
     margin-top: 32px;
 }
 .Multi_Chain_Support_right_Content p {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -6288,7 +6493,7 @@ background: #0f093fa8;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -6489,7 +6694,7 @@ background: #0f093fa8;
 }
 /* Style the Headings that are used to open and close the accordion panel */
 .FAQContnetSect .FAQquestions .accordion {
-    cursor: pointer;
+    cursor: poRusso One;
     background: rgba(30, 31, 53, 0.5);
     height: 76px;
     font-family: Russo One;
@@ -6552,7 +6757,7 @@ background: #0f093fa8;
 }
 .FAQContnetSect .FAQquestions .accordion-panel p {
     padding: 0px 48px 24px 29px;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -6608,7 +6813,7 @@ background: #0f093fa8;
     height: 60px;
     padding: 8px 19px;
     background: transparent;
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -6791,13 +6996,14 @@ background: #0f093fa8;
 .sc_banner_V3_left p {
     max-width: 564px;
     width: 100%;
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
     color: #FFFFFF;
     margin-bottom: 60px;
+    visibility: visible;
 }
 .Animetion_Avater{
     text-align: center;
@@ -7013,7 +7219,7 @@ background: #0f093fa8;
 
 .How_to_Participate_Left_Contnet{}
 .How_to_Participate_Left_Contnet p {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -7067,7 +7273,7 @@ background: #0f093fa8;
     margin-bottom: 10px;
 }
 .How_to_Participate_right_CardText p {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -7168,7 +7374,7 @@ background: #0f093fa8;
     margin-top: 24px;
 }
 .gamfi_Tier_card p {
-    font-family: Inter;
+    font-family: Russo One;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -7295,7 +7501,7 @@ background: #0f093fa8;
     margin-bottom: 21px;
 }
 .TiedV2CollBody ul li h4 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -7531,7 +7737,7 @@ background: #0f093fa8;
     color: #FFFFFF;
 }
 .ConnectWallet_Card_Headings p {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -7608,7 +7814,7 @@ background: #0f093fa8;
     color: rgba(255, 255, 255, 0.7);
 }
 .ConnectWallet_Content p {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -7694,7 +7900,7 @@ background: #0f093fa8;
     line-height: 30px;
     margin-bottom: 0px;
     color: rgba(163, 255, 18, 0.7);
-    cursor: pointer;
+    cursor: poRusso One;
 }
 .Article_Details h2:hover{
     color: rgba(163, 255, 18, 1);
@@ -7721,7 +7927,7 @@ background: #0f093fa8;
     max-width: 299px;
 }
 .Article_Details p {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -7786,13 +7992,13 @@ background: #0f093fa8;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.7);
-    cursor: pointer;
+    cursor: poRusso One;
     
 }
 .Article_Details_BGShape{
@@ -8754,7 +8960,7 @@ FAQ Screen
     font-size: 16px;
     line-height: 50px;
     color: rgba(255, 255, 255, 0.7);
-    cursor: pointer;
+    cursor: poRusso One;
 }
 .FAQ_Screen_Tab ul li span{
     margin-left: 10px;
@@ -8793,7 +8999,7 @@ FAQ Screen
 }
 
 .FAQContnetSect .accordion {
-    cursor: pointer;
+    cursor: poRusso One;
     background: transparent;
     width: 100%;
     font-family: 'Russo One';
@@ -8850,7 +9056,7 @@ FAQ Screen
 }
 .FAQContnetSect .accordion-panel p {
     padding: 0px;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -8886,7 +9092,7 @@ ProjectDetailsRoadMapContent
     margin-bottom: 12px;
 }
 .ProjectDetailsRoadMapContent ul li {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -8932,7 +9138,7 @@ ProjectDetails_TeamMembers_Sect
     margin-top: 28px;
 }
 .ProjectDetails_TeamMembersCard h6 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -9048,7 +9254,7 @@ Home tokenomics
     margin-right: 16px;
 }
 .V1_tokenomics_content_ListText h4 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -9303,7 +9509,7 @@ ProjectClasic
 
 
 .gamfi-previous-section.ProjectClasic_PreviousSection .previous-item .previous-EndsIn.list3Custom span {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -9313,7 +9519,7 @@ ProjectClasic
 }
 
 .gamfi-previous-section .previous-item .previous-raise.list4Custom span {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -9323,7 +9529,7 @@ ProjectClasic
 }
 
 .ProjectClasicCustomProgressSect p {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -9389,7 +9595,7 @@ ProjectClasic
     text-transform: capitalize;
 }
 .ProjectClasicSlider_TextSect p {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -9411,7 +9617,7 @@ ProjectClasic
     flex-direction: column;
 }
 .ProjectClasicSlider_RiseCeontent span {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -9472,7 +9678,7 @@ ProjectClasic
 }
 
 .ProjectClasicSlider_RightTimer h2{
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -9505,7 +9711,7 @@ ProjectClasic
     flex-direction: column;
 }
 .Access_AllocationText span {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -9855,7 +10061,7 @@ ProjectClasic2
     margin-top: 15px;
 }
 .Project_clasic_2Container_RightHeadings p {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -10041,7 +10247,7 @@ ProjectClasic2
 }
 
 .Project_clasicSliderSect .ProjectClasicPrev, .ProjectClasicNxt {
-  cursor: pointer;
+  cursor: poRusso One;
   position: absolute;
   top: 50%;
   width: auto;
@@ -10564,9 +10770,193 @@ ProjectDetails2
     text-transform: uppercase;
 }
 
+/* Roadmap Section Styling */
+.roadmap-section {
+    position: relative;
+    padding: 50px;
+    color: white;
+}
+
+.roadmap-header {
+    display: flex;
+    align-items: left;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.roadmap-header h2 {
+    font-size: 2.5rem;
+    margin-left: 60px; /* Adjust to give more space for the rocket */
+}
+
+.rocket-icon {
+    width: 50px;
+    position: absolute;
+    left: 30px; /* Bring the rocket closer to the content */
+    top: 0;
+    transition: transform 0.5s ease-out; /* Smooth animation */
+}
+
+.phase {
+    margin-bottom: 80px;
+    position: relative;
+    padding-left: 80px; /* Increase padding to align text with the dashed line */
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* Dotted line style */
+.roadmap-content {
+    border-left: 2px dashed white;
+    padding-left: 40px;
+    position: relative;
+    margin-left: 50px; /* Align the dashed line closer to the content */
+}
+
+.phase h3::before {
+    content: "●";
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: -45px; /* Place the dot closer to the dashed line */
+    top: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .rocket-icon {
+        left: 20px; /* Adjust the rocket position on mobile */
+        width: 40px;
+    }
+
+    .roadmap-content {
+        margin-left: 20px; /* Adjust vertical line position on smaller screens */
+    }
+
+    .phase h3::before {
+        left: -35px; /* Adjust the dots for smaller screens */
+    }
+}
 
 
+.mobile-shadow-box {
+    background: rgb(61,57,94, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px; 
+    padding: 20px;
+    width: 100%; /* Limit the max width for larger screens */
+    margin: 20px auto; /* Center the box horizontally */
+     /* border: 2px solid rgba(255, 255, 255, 0.5);  Border similar to the image */
+    backdrop-filter: blur(10px); /* Optional: Apply blur effect for a glassy look */
+    text-align: left;
+    padding-bottom: 50px;
 
+}
+
+.roadmap-shadow-box {
+    background: rgb(35 15 80, 0.5); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the box */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    max-width: 600px; /* Limit the max width for larger screens */
+    margin: 20px auto; /* Center the box horizontally */
+    /* border: 2px solid rgba(255, 255, 255, 0.5);  Border similar to the image */
+    backdrop-filter: blur(10px); /* Optional: Apply blur effect for a glassy look */
+}
+
+.shadow-box {
+    background: rgb(61,57,94, 0.3); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the box */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    max-width: 600px; /* Limit the max width for larger screens */
+    margin: 20px auto; /* Center the box horizontally */
+    /* border: 2px solid rgba(255, 255, 255, 0.5);  Border similar to the image */
+    backdrop-filter: blur(10px); /* Optional: Apply blur effect for a glassy look */
+}
+
+.shadow-box-max {
+    background: rgb(35 15 80, 0.5); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the box */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    width: 100%; /* Limit the max width for larger screens */
+    /* margin: 20px auto;  */
+     /* border: 2px solid rgba(255, 255, 255, 0.5);  Border similar to the image */
+    backdrop-filter: blur(10px); /* Optional: Apply blur effect for a glassy look */
+    text-align: center;
+}
+
+.shadow-box-max2 {
+    background: rgb(35 15 80, 0.5); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the box */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    width: 100%; /* Limit the max width for larger screens */
+    margin: 20px auto; /* Center the box horizontally */
+     /* border: 2px solid rgba(255, 255, 255, 0.5);  Border similar to the image */
+    backdrop-filter: blur(10px); /* Optional: Apply blur effect for a glassy look */
+    text-align: center;
+    padding-bottom: 50px;
+}
+.mobile-shadow-box-max {
+    background: rgb(35 15 80, 0.5); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the box */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    width: 100%; /* Limit the max width for larger screens */
+    /* margin: 20px auto; */
+     /* border: 2px solid rgba(255, 255, 255, 0.5);  Border similar to the image */
+    backdrop-filter: blur(10px); /* Optional: Apply blur effect for a glassy look */
+    text-align: center;
+}
+
+.shadow-box h2 {
+    font-family: 'Russo One', regular; /* Mimicking the font style in your image */
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shadow-box p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.shadow-box a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.shadow-box a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .shadow-box {
+        padding: 15px;
+        max-width: 90%; /* Take up more screen space on mobile */
+    }
+
+    .shadow-box h2 {
+        font-size: 1.5em;
+    }
+
+    .shadow-box p {
+        font-size: 0.9em;
+    }
+}
 /*---------Index-V4---------*/
 .HomeV4Bg{
     position: fixed;
@@ -10575,7 +10965,7 @@ ProjectDetails2
     top: 0px;
     left: 0px;
     z-index: 0;
-    background: url(../images/bg/home4BG.jpg);
+    background: url(../images/bg/bg1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10636,6 +11026,11 @@ ProjectDetails2
 
 .homeV4_participate_Sect{
     background: #0f093fa8;
+    padding-bottom: 100px;
+}
+.roadmap-sect-bg{
+    background: #0f093fa8;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -10709,6 +11104,25 @@ ProjectDetails2
     position: relative;
     z-index: 3;
 }
+@media only screen and (max-width: 768px) {
+    /* Adjust the main container */
+    .home_v4_body_items {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 720px) and (max-height: 1600px) {
+    /* More specific adjustments for devices like the Moto E40 */
+    .home_v4_body_items {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
 .home4FireFlyBG{
     position: fixed;
     z-index: 1;
@@ -10850,7 +11264,7 @@ Governance
 }
 
 .governanc_content_left_hash_card h3 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -10870,7 +11284,7 @@ Governance
 }
 
 .governanc_content_left_hash_card_stutas h4 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -10880,7 +11294,7 @@ Governance
     margin-bottom: 0px;
 }
 .governanc_content_left_hash_card_stutas h4 span {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -11289,7 +11703,7 @@ Governance
 
 
 .governanc_content_left_hash_card ul li h5 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -11322,7 +11736,7 @@ Governance
     color: rgba(255, 255, 255, 0.7);
 }
 .governanc_details_back_btn a span{
-    font-family: 'Inter';
+    font-family: 'Russo One';
     margin-right: 10px;
     font-size: 18px;
 }
@@ -11345,7 +11759,7 @@ Governance
     margin-top: 30px;
 }
 .governanc_details_heading h3 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -11366,7 +11780,7 @@ Governance
     margin-right: 5px;
 }
 .governanc_details_heading h4 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -11436,7 +11850,7 @@ Governance
     justify-content: flex-start;
     padding: 0px 30px;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
-    cursor: pointer;
+    cursor: poRusso One;
 }
 
 .cast_your_vote_radio .radio_container {
@@ -11444,7 +11858,7 @@ Governance
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
-    cursor: pointer;
+    cursor: poRusso One;
     font-size: 22px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -11467,7 +11881,7 @@ Governance
 .cast_your_vote_radio .radio_container input {
     position: absolute;
     opacity: 0;
-    cursor: pointer;
+    cursor: poRusso One;
     height: 0;
     width: 0;
 }
@@ -11534,7 +11948,7 @@ Governance
     margin-bottom: 21px;
 }
 .governanc_details_text p {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -11564,7 +11978,7 @@ Governance
     margin-bottom: 0px;
 }
 .governce_vote_table ul li h3 {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -11575,7 +11989,7 @@ Governance
 }
 .governce_vote_table ul li h4 {
     margin-bottom: 0px;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -11596,7 +12010,7 @@ Governance
 }
 .governce_vote_table ul li h5 {
     margin-bottom: 0px;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -11609,7 +12023,7 @@ Governance
 
 .governce_vote_table ul li h6 {
     margin-bottom: 0px;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -11659,7 +12073,7 @@ Governance
     height: 60px;
     outline: none;
     background: transparent;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -11696,7 +12110,7 @@ Governance
     margin-top: 30px;
 }
 .current_results_progress_content p {
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -11743,7 +12157,7 @@ Governance
 
 .governanc_content_right_card ul li p {
     margin-bottom: 0px;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -12085,7 +12499,7 @@ Governance
     max-width: 215px;
     border: none;
     outline: none;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -12213,7 +12627,7 @@ Governance
 }
 .lq_flip_front_card_bottom ul li  button{
     padding: 0px;
-    font-family: 'Inter';
+    font-family: 'Russo One';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -12422,4 +12836,510 @@ Staking_4
 }*/
 
 
+.mau_v4owl_carousel_sect{
+    background: #ffe60000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mau_v4owl_carousel_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.mau_v4owl_carousel_content ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    animation: 20s linear 0s infinite normal none running loop-animate;
+}
+.mau_v4owl_carousel_content ul li {
+    margin-left: 20px;
+    min-width: 152px;
+    font-family: 'Russo One';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #111111;
+}
+.mau_v4owl_carousel_content ul li span{
+    margin-right: 19px;
+}
+/* General UFO icon and trail settings (unchanged) */
+.ufo-icon {
+    width: 60px;
+    position: absolute;
+    left: -80px;
+    top: 0;
+    transition: transform 1s ease-out;
+    z-index: 10;
+}
+
+/* UFO Trail */
+.ufo-icon::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 250px;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.9;
+    z-index: 9;
+}
+
+/* Timeline and phases */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 100px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 30px;
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+}
+
+.timeline-content {
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+    /* Adjust roadmap text size */
+    .timeline-content {
+        font-size: 16px; /* Smaller font for mobile */
+        text-align: left; /* Keep text aligned to the left */
+    }
+
+    .timeline-item {
+        margin-bottom: 60px; /* Reduce space between phases on mobile */
+    }
+
+    /* Adjust the size and position of the UFO */
+    .ufo-icon {
+        width: 30px; /* Make the UFO even smaller on mobile */
+        left: -40px; /* Adjust position further left */
+        top: 0; /* Keep it aligned at the top */
+    }
+
+    .ufo-icon::after {
+        width: 6px; /* Narrower trail */
+        height: 100px; /* Shorter trail for mobile */
+    }
+
+    /* Timeline adjustments for mobile */
+    .timeline {
+        padding-left: 20px; /* Less padding on mobile */
+    }
+
+    .timeline-dot {
+        width: 10px; /* Smaller dot */
+        height: 10px; /* Smaller dot */
+    }
+
+    .timeline-item:before {
+        left: 4px; /* Adjust line position */
+        width: 1px; /* Thinner line */
+    }
+}
+/* Desktop Rocket Animation - Visible only on desktop */
+.roadmap-desktop .ufo-icon {
+    width: 150px;
+    position: absolute;
+    left: -80px;
+    top: 0;
+    transition: transform 1s ease-out;
+    z-index: 10;
+}
+
+/* Mobile View - Hide rocket and timeline animation */
+.roadmap-mobile .ufo-icon {
+    display: none; /* Hide rocket for mobile */
+}
+
+/* General Desktop Roadmap Visibility */
+.roadmap-desktop {
+    display: block; /* Visible on desktop */
+}
+
+/* General Mobile Roadmap Visibility */
+.roadmap-mobile {
+    display: none; /* Hidden on desktop by default */
+}
+
+/* Mobile-Specific Styles */
+@media (max-width: 768px) {
+    .roadmap-title {
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+    /* Hide desktop version on mobile */
+    .roadmap-desktop {
+        display: none;
+    }
+
+    /* General Mobile Layout */
+    .roadmap-mobile {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Space between the phase cards */
+        padding: 20px;
+    }
+
+    /* Individual Phase Card */
+    .mphase-card {
+        background: rgb(35 15 80, 0.5); /* Semi-transparent white background */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around the box */
+        border-radius: 15px; /* Rounded corners */
+        padding: 20px;
+        max-width: 600px; /* Limit the max width for larger screens */
+        margin: 20px auto; /* Center the box horizontally */
+        /* border: 2px solid rgba(255, 255, 255, 0.5);  Border similar to the image */
+        backdrop-filter: blur(10px); /* Optional: Apply blur effect for a glassy look */
+    }
+
+    /* Rocket Icon for Mobile */
+    .ufo-mobile-icon {
+        width: 80px !important; /* Ensure it's a small size for mobile */
+        height: auto !important;
+        position: absolute;
+        left: 10px; /* Place it inside the visible area */
+        top: 20px; /* Adjust this if needed to keep it at the top */
+        transition: transform 0.5s ease-out; /* Smooth movement */
+        z-index: 100; /* Ensure it appears above other elements */
+    }
+
+    /* Phase Title */
+    .mphase-card h3 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+    /* List of tasks within each phase */
+    .mphase-card ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .mphase-card ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .mobile-navbar-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        background-color: #090a1a;
+      }
+      
+      .nav-menu {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      
+      .nav-menu li {
+        margin-bottom: 15px;
+      }
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px; /* Adjust height as per need */
+    padding-bottom: 50px;
+}
+
+.slide-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    width: 50%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.gif-content {
+    width: 40%;
+    text-align: center;
+}
+
+.gif-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional */
+}
+@media (max-width: 768px) {
+    .mobile-slider {
+      display: block;
+    }
+  
+   
+    .desktop-game {
+      display: none;
+    }
+  
+    .swiper-container {
+      width: 100%;
+      height: auto;
+    }
+  
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: rgb(35 15 80, 0.5); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        border-radius: 15px; 
+        padding: 20px;
+        max-width: 600px; 
+        margin: 20px auto; 
+       
+        backdrop-filter: blur(10px); 
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .swiper-slide img {
+      max-width: 100%;
+      height: auto;
+    }
+   
+    .scroll-indicator {
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 10px;
+        opacity: 0.8;
+    }
+
+    
+    .scroll-indicator:after {
+        content: ' ➡️'; 
+        display: inline-block;
+        font-size: 16px;
+        animation: swipe 1s infinite alternate;
+    }
+
+    @keyframes swipe {
+        from {
+            opacity: 0.6;
+            transform: translateX(0px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(10px);
+        }
+    }
+    
+    .swiper-container {
+        width: 100%;
+    }
+
+    .swiper-container::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        height: 100%;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent);
+        pointer-events: none;
+    }
+    .swiper-pagination .swiper-pagination-bullet {
+        width: 15px !important;
+        height: 15px !important;
+        background-color: rgba(19, 216, 212, 0.5) !important;
+        opacity: 1 !important;
+        transition: background-color 0.3s ease !important;
+    }
+
+    
+    .swiper-pagination .swiper-pagination-bullet-active {
+        background-color: #13d8d4 !important;
+        width: 18px !important;
+        height: 18px !important;
+        animation: blink 1s infinite alternate; 
+    }
+
+    
+    @keyframes blink {
+        0% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        50% {
+            opacity: 0.6;
+            transform: scale(1.2); /* Slightly enlarges the bullet */
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    /* Ensure pagination is correctly positioned */
+    .swiper-pagination {
+        bottom: 10px !important;
+        text-align: center !important;
+    }
+  }
+
+  
+
+ /* Make the swiper container transparent */
+.swiper-container {
+    position: relative;
+    background: transparent !important; /* Ensures transparency */
+    z-index: 1; /* Keeps container below other elements */
+}
+
+/* Style pagination bullets */
+.swiper-pagination {
+    position: absolute;
+    z-index: 10; /* Bring pagination above other elements */
+    bottom: 20px; /* Adjust positioning as needed */
+    text-align: center;
+}
+
+/* Bullet styling with animation */
+.swiper-pagination .swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: rgba(19, 216, 212, 0.5) !important;
+    opacity: 1 !important;
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+}
+
+/* Active bullet with blink animation */
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #13d8d4 !important;
+    width: 18px !important;
+    height: 18px !important;
+    animation: blink 1s infinite alternate;
+}
+
+/* Keyframe for blinking effect */
+@keyframes blink {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.6;
+        transform: scale(1.2); /* Slightly enlarges the bullet */
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* Ensure pagination is correctly positioned */
+.swiper-pagination {
+    bottom: 10px !important;
+    text-align: center !important;
+}
+  /* Container styling */
+.swiper-container.desktop-slider {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgb(35 15 80, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 100px;
+}
+
+/* Layout of text and GIF */
+.slide-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.text-column p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0;
+    text-align: left;
+}
+
+.gif-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Swiper pagination and navigation */
+.swiper-pagination {
+    bottom: 10px !important;
+    border-color: #01CC9B;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #333;
+}
+
+/* Mobile-only adjustments */
+@media (max-width: 768px) {
+    .swiper-container.desktop-slider .slide-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
